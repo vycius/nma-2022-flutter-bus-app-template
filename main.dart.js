@@ -19788,20 +19788,18 @@ this.b=b},
 Xt:function Xt(){},
 Xr:function Xr(){},
 Xs:function Xs(){},
-axX(){var s="Realus laikas",r="Mar\u0161rutai"
-return new A.nH(A.b([new A.p4("Artimiausios stotel\u0117s","Artimiausios",new A.a_2(),B.Al,B.Ao),new A.p4("Stoteli\u0173 \u017eem\u0117lapis","Stotel\u0117s",new A.a_3(),B.eV,B.Ap),new A.p4(s,s,new A.a_4(),B.lS,B.An),new A.p4(r,r,new A.a_5(),B.Aq,B.Ar)],t.es),null)},
+axX(){return new A.nH(A.b([new A.p4("Artimiausios",new A.a_2(),B.Al,B.Ao),new A.p4("Stotel\u0117s",new A.a_3(),B.eV,B.Ap),new A.p4("Realus laikas",new A.a_4(),B.lS,B.An),new A.p4("Mar\u0161rutai",new A.a_5(),B.Aq,B.Ar)],t.es),null)},
 nH:function nH(a,b){this.c=a
 this.a=b},
 a_2:function a_2(){},
 a_3:function a_3(){},
 a_4:function a_4(){},
 a_5:function a_5(){},
-p4:function p4(a,b,c,d,e){var _=this
-_.a=a
-_.b=b
-_.c=c
-_.d=d
-_.e=e},
+p4:function p4(a,b,c,d){var _=this
+_.b=a
+_.c=b
+_.d=c
+_.e=d},
 rC:function rC(a,b){this.c=a
 this.a=b},
 a2R:function a2R(a){this.a=a},
@@ -65063,11 +65061,9 @@ A.Xs.prototype={
 $1(a){return a.a.ln(3)},
 $S:435}
 A.nH.prototype={
-I(a,b){var s,r,q,p=null,o=this.c,n=o[0],m=A.afQ(p,p,!0,p,p,1,p,!0,p,!1,p,p,p,p,p,!0,p,p,p,p,A.i3(n.a,p,p,p),p,p,p,1,p)
-n=n.c.$0()
-s=A.b([],t.ur)
-for(r=0;r<4;++r){q=o[r]
-s.push(new A.E4(new A.hB(q.d,p,p,p),new A.hB(q.e,p,p,p),q.b))}return A.agN(m,p,n,new A.vz(s,this.ga7Z(),0,B.vJ,p,B.kT,p),p,p,B.a2,p,!0,p,p,!0,!1,!1,p,p,p,p,p,p,p,!0,p,p)},
+I(a,b){var s,r,q=null,p=A.afQ(q,q,!0,q,q,1,q,!0,q,!1,q,q,q,q,q,!0,q,q,q,q,A.i3("TODO: Exercise 1",q,q,q),q,q,q,1,q),o=this.c,n=o[0].c.$0(),m=A.b([],t.ur)
+for(s=0;s<4;++s){r=o[s]
+m.push(new A.E4(new A.hB(r.d,q,q,q),new A.hB(r.e,q,q,q),r.b))}return A.agN(p,q,n,new A.vz(m,this.ga7Z(),0,B.vJ,q,B.kT,q),q,q,B.a2,q,!0,q,q,!0,!1,!1,q,q,q,q,q,q,q,!0,q,q)},
 a8_(a){A.l6("Tapped index: "+a+", Current index: 0")}}
 A.a_2.prototype={
 $0(){return new A.r4(null)},
