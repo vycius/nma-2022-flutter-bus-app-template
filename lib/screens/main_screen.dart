@@ -47,7 +47,7 @@ class MainScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         // TODO: Exercise 1
-        title: Text(_currentTab.title),
+        title: Text('TODO: Exercise 1'),
         centerTitle: true,
       ),
       body: _currentTab.builder(),
